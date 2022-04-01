@@ -45,6 +45,16 @@ The final result looks like the animation below:
 ![Final result][gif1]
 
 ## Installation
+It requires pcl 1.9.1
+So after pulling git you need 
+
+``` git checkout pcl-1.9.1```
+to point pcl installation to a specific directory 
+```cmake -DCMAKE_INSTALL_PREFIX=/home/adminstator/MARK/pcl/install ..```
+
+to make the lidar-detector code point to that specific PCL
+
+``` cmake -DCMAKE_PREFIX_PATH=/home/adminstrator/MARK/pcl/install ..```
 
 ### Ubuntu 
 
